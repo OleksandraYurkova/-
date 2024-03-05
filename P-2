@@ -1,0 +1,40 @@
+#task 1
+def string():
+    print("TASK 1\nTwinkle, twinkle, little star, \n\tHow I wonder what you are! \n\t\tUp above the world so high,\n\t\tLike a diamond in the sky.\nTwinkle, twinkle, little star, \n\tHow I wonder what you are")
+print(string())
+
+#task 2
+def radius(r):
+    area=3.14*r**2
+    return area
+print("\nTASK 2")
+print(radius(6))
+
+#task 3
+def color():
+    color_list = ["Red","Green","White" ,"Black"]
+    print(color_list[0]+";" + color_list[3])
+print("\nTASK 3")
+print (color())
+
+#task 4
+def find(n):
+    find=n+n*n+n*n*n
+    return find
+print("\nTASK 4")
+print(find(5))
+
+#task 5
+def numerString():
+    numbers = [386, 462, 47, 418, 907, 344, 236, 375, 823, 
+    566, 597, 978, 328, 615, 953, 345, 399, 162, 758, 219, 
+     918, 237, 412, 566, 826, 248, 866, 950, 626, 949, 687, 
+    217, 815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 
+    379, 843, 831, 445, 742, 717, 958,743, 527]
+    for j in numbers:
+        if j % 2 == 0:
+            print(j)
+        if j==237:
+            break
+print("\nTASK 5")
+print(numerString())
